@@ -26,10 +26,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Book Cleaner - Local</ProductName>
     <PublisherName>BakkerGames, Inc.</PublisherName>
-    <MinimumRequiredVersion>2016.2.2.1</MinimumRequiredVersion>
+    <MinimumRequiredVersion>2016.2.3.0</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>2016.2.2.1</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2016.2.3.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>false</BootstrapperEnabled>
   </PropertyGroup>
@@ -108,12 +108,8 @@
       <HintPath>..\..\Bin\Arena_Utilities.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -124,7 +120,6 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Windows.Forms" />
     <Import Include="System.Linq" />
-    <Import Include="System.Xml.Linq" />
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
