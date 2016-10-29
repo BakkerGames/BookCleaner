@@ -1,8 +1,10 @@
 ﻿' --------------------------------
-' --- FormMain.vb - 01/17/2015 ---
+' --- FormMain.vb - 06/29/2016 ---
 ' --------------------------------
 
 ' ----------------------------------------------------------------------------------------------------
+' 06/29/2016 - SBakker
+'            - Had to take "melange" out of the list for accents. "Dune" doesn't use the accents.
 ' 01/17/2015 - SBakker
 '            - Removed HypenQuote logic, as it didn't do anything anymore.
 '            - Added unaccented words "señor", "señora", "señorita".
@@ -886,9 +888,9 @@ Public Class FormMain
         UnaccentedWord = "maitre d"
         AccentedWord = "maître d"
         If FindWord(TempLowerLine, UnaccentedWord) Then Return True
-        UnaccentedWord = "melange"
-        AccentedWord = "mélange"
-        If FindWordPlural(TempLowerLine, UnaccentedWord) Then Return True
+        'UnaccentedWord = "melange"
+        'AccentedWord = "mélange"
+        'If FindWordPlural(TempLowerLine, UnaccentedWord) Then Return True
         UnaccentedWord = "naive"
         AccentedWord = "naïve"
         If FindWord(TempLowerLine, UnaccentedWord) Then Return True

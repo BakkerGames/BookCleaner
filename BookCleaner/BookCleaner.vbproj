@@ -26,10 +26,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Book Cleaner - Local</ProductName>
     <PublisherName>BakkerGames, Inc.</PublisherName>
-    <MinimumRequiredVersion>2016.2.3.0</MinimumRequiredVersion>
+    <MinimumRequiredVersion>2016.8.11.213</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>2016.2.3.0</ApplicationVersion>
+    <ApplicationRevision>213</ApplicationRevision>
+    <ApplicationVersion>2016.8.11.213</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>false</BootstrapperEnabled>
   </PropertyGroup>
@@ -74,7 +74,7 @@
     <OptionInfer>Off</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>619ADB781AD5FB8BCD88078E1271894E781DB102</ManifestCertificateThumbprint>
@@ -83,10 +83,11 @@
     <ManifestKeyFile>Security\CodeSigning.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Security\CodeSigning.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
@@ -177,7 +178,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="Security\CodeSigning.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
